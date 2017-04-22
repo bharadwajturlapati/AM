@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Maven + Spring MVC</title>
+<title>Airline Portal</title>
  
 <spring:url value="/resources/core/css/hello.css" var="coreCss" />
 <spring:url value="/resources/core/css/bootstrap.min.css" var="bootstrapCss" />
@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#">Spring 3 MVC Project</a>
+		<a class="navbar-brand" href="#">Management Portal</a>
 	</div>
   </div>
 </nav>
@@ -66,12 +66,12 @@
  
   <hr>
   <footer>
-	<p>&copy; Mkyong.com 2015</p>
+	<p>&copy; Airlines</p>
   </footer>
 </div>
  
-<spring:url value="/resources/core/css/hello.js" var="coreJs" />
-<spring:url value="/resources/core/css/bootstrap.min.js" var="bootstrapJs" />
+<spring:url value="/resources/core/js/hello.js" var="coreJs" />
+<spring:url value="/resources/core/js/bootstrap.min.js" var="bootstrapJs" />
  
 <script src="${coreJs}"></script>
 <script src="${bootstrapJs}"></script>
