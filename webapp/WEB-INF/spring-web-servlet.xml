@@ -25,5 +25,6 @@
 	<mvc:resources mapping="/resources/**" location="/resources/" />
  
 	<mvc:annotation-driven />
+	<import resource="springbeanconfig.xml"/>
 	
 </beans>
