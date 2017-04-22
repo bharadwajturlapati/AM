@@ -1,20 +1,21 @@
 package org.am.delegate;
 
+import java.sql.SQLException;
+
+import org.am.service.UserService;
+
 public class LoginDelegate {
 	private UserService userService;
 
-	public UserService getUserService()
-	{
+	public UserService getUserService() {
 		return this.userService;
 	}
 
-	public void setUserService(UserService userService)
-	{
+	public void setUserService(UserService userService) {
 		this.userService = userService;
 	}
 
-	public boolean isValidUser(String username, String password) throws SQLException
-	{
-	    return userService.isValidUser(username, password);
+	public boolean isValidUser(String username, String password) throws SQLException {
+		return userService.isValidUser(username, password);
 	}
 }
