@@ -39,6 +39,9 @@
 	<div class="col-md-4">
 		<h2>My Account</h2>
 		<p>Login to view my Account</p>
+		<p>
+			<a class="btn btn-default" href="login" role="button">View details</a>
+		</p>
 		<%-- <form:form id="loginForm" method="post" action="login" modelAttribute="loginBean">
 			<form:label path="username">Enter your user-name</form:label>
 			<form:input id="username" name="username" path="username" /><br>
