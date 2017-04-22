@@ -22,18 +22,6 @@
 <div class="jumbotron">
   <div class="container">
 	<h1>${title}</h1>
-	<p>
-		<c:if test="${not empty name}">
-			Hello ${name}
-		</c:if>
- 
-		<c:if test="${empty name}">
-			Welcome Welcome!
-		</c:if>
-    </p>
-    <p>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-	</p>
 	</div>
 </div>
  
@@ -41,22 +29,22 @@
  
   <div class="row">
 	<div class="col-md-4">
-		<h2>Heading</h2>
-		<p>ABC</p>
+		<h2>Flight Portal</h2>
+		<p>Search Flights</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>Heading</h2>
-		<p>ABC</p>
+		<h2>My Account</h2>
+		<p>Login to view my Account</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>Heading</h2>
-		<p>ABC</p>
+		<h2>Hotel Portal</h2>
+		<p>Search for available hotels</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
