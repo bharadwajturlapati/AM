@@ -1,5 +1,5 @@
 package org.am.viewbean;
 
-public class PassengerBean {
+public class PassengerBean extends UserBean{
 
 }

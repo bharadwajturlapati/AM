@@ -33,7 +33,7 @@
 		<h2>Flight Portal</h2>
 		<p>Search Flights</p>
 		<p>
-			<a class="btn btn-default" href="#" role="button">View details</a>
+			<a class="btn btn-default" href="searchflights" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
@@ -54,7 +54,7 @@
 		<h2>Hotel Portal</h2>
 		<p>Search for available hotels</p>
 		<p>
-			<a class="btn btn-default" href="#" role="button">View details</a>
+			<a class="btn btn-default" href="searchhotels" role="button">View details</a>
 		</p>
 	</div>
   </div>
