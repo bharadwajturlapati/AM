@@ -7,7 +7,7 @@ import org.am.constants.FlightType;
 public class FlightBean extends UserBean {
 
 	/**
-	 * 
+	 * test commit
 	 */
 	private static final long serialVersionUID = 1L;
 	private List<PassengerBean> passengerBean;
